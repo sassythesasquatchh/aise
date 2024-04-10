@@ -1,0 +1,7 @@
+map output of models to correct domain using activation on 
+output layer, if the end domain is known. In this task,
+temperatures should not be below 1 or above 4
+
+For Task 2, use different models for each domain. This prevents the difficult task
+of learning regime changes. However, it becomes necessary to train the models
+to agree at the interface
